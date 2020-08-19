@@ -1,0 +1,27 @@
+@import "fonts";
+@import "colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+// Шапка
+#nav {
+  background-color: $primary;
+  color: $white;
+
+}
+#nav-brand {
+  color: $white;
+}
+.btn-outline-white {
+  border-color: $white;
+  color: $white;
+
+  &:hover {
+    background-color: $white;
+  }
+}
